@@ -1,0 +1,94 @@
+*{
+  margin: 0px;
+  font-family: "Ubuntu", sans-serif;}
+
+.container img{
+  width: 750px;
+  border-radius: 20px 0px 0px 20px;
+}
+.main{
+  display: flex;
+  position: relative;
+  z-index: 1;
+  /* background:linear-gradient(to bottom right, #f4ece1, #c5c3c9); */
+  width: 1300px;
+  padding-right: 40px;
+  border-radius: 20px;
+  /* box-shadow: 0px 0px 15px 10px rgb(44, 44, 44); */
+  transform: scale(0.75);
+  background-color: #f4ece1;
+}
+.container{
+  width: 800px;
+  background-color: #f4ece1;
+  height: 1100px;
+  display: flex;
+  flex-direction: column;
+ justify-content: end;
+ border-radius: 20px 0px 0px 20px;
+
+}
+.namediv img{
+  width: 280px;
+}
+.namediv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.namediv h2{
+  color: rgb(167, 10, 10);
+  font-size: 30px;
+}
+.form{
+  padding-left:40px;
+  padding-bottom: 20px;
+}
+.form h1{
+  margin-bottom: 20px;
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(15, 15, 15);
+}
+.background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./assets/artistic-blurry-colorful-wallpaper-background.jpg);
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(20px) brightness(0.4); */
+  
+  z-index: -1; 
+}
+
+.background{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form{
+  text-align: left;
+}
+input{
+  margin:5px 10px 15px 0px;
+}
+select{
+  margin:10px 10px;
+}
+label{
+  font-size: 20px;
+  color: #191622;
+  font-weight: 600;
+}
+.button{
+  width: 250px;
+  height: 50px;
+}
+.button-group{
+  margin-top: 30px;
+}
